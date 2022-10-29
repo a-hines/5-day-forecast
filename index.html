@@ -35,8 +35,13 @@
           <div class="container displayContainer mainContainer">
             <div class="row align-items-center">
                 <h2 class="city">Current Weather</h2>
-            
-
+                <span id="currentDate"></span>
+                <img id="weatherIcon" />
+            </div>
+            <div>
+                <p class="pt-1 pl-2">Temperature: </p>
+                <p class="pl-2">Wind: </p>
+                <p class="pl-2">Humidity: </p>
             </div>
 
           </div>
@@ -44,7 +49,29 @@
           <!-- 5 Day Forecast -->  
             <div class="container displayContainer mainContainer">
                 <h2>5-Day Forecast</h2>
-             </div> 
+                <div class="row d-flex justify-content-between">
+                    <div class="col displayCard" data-card="0">
+                        <h3 class="forecastDate"></h3>
+                    </div>
+
+                    <div class="col displayCard" data-card="1">
+                        <h3 class="forecastDate"></h3>
+                    </div>
+
+                    <div class="col displayCard" data-card="2">
+                        <h3 class="forecastDate"></h3>
+                    </div>
+                    
+                    <div class="col displayCard" data-card="3">
+                        <h3 class="forecastDate"></h3>
+                    </div>                 
+                    
+                    <div class="col displayCard" data-card="4">
+                        <h3 class="forecastDate"></h3>
+                    </div>                    
+                </div>
+            </div> 
+
         </div> 
 
       </div>
