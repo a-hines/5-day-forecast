@@ -1,7 +1,7 @@
 # 5-day-forecast
-Deployed app: https://a-hines.github.io/mod4-code-quiz/
+Deployed app: https://a-hines.github.io/5-day-forecast/
 
-This app is not fully finished at time of submission. Submitting to get caught up and will return to work on this at later date.
+This app is not finished at time of submission. Submitting to get caught up and will return to work on this at later date.
 
 The acceptance critria for this project were as follows: GIVEN a weather dashboard with form inputs
 WHEN I search for a city
@@ -13,4 +13,4 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
-Screenshot of deployed app: 
+Screenshot of deployed app: (Will be updated at future time)
